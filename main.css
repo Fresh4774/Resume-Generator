@@ -111,6 +111,11 @@ a{
     color: #fff;
     border: 2px solid #fff;
     transition: all 300ms ease-in-out;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 5px;
 }
 
 #about-sc{

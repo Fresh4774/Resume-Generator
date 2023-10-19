@@ -222,7 +222,8 @@ function previewImage(){
     }
 }
 
-// print CV
-function printCV(){
+const downloadBtn = document.getElementById("download-btn");
+
+downloadBtn.addEventListener("click", () => {
     window.print();
-}
+});
